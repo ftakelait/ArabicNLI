@@ -48,6 +48,7 @@ python inference.py --checkpoints 'checkpoints/checkpoint-27/' \
 This project is licensed under the terms of the MIT license.
 
 ## Citations
+**Note**: I am considering submitting my work to a conference, preferably AAAI 2023
 If you use this code or our results in your research, please cite:
 
 ```
