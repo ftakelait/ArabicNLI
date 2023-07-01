@@ -13,7 +13,7 @@ pip install -r requirements.txt
 ```
 
 ## Data
-The datasets used in this project, ArNLi and ArbTEDS, can be found in the `dataset/dataset/ArbTEDS/` directory.
+The datasets used in this project, ArNLi and ArbTEDS, can be found in the `dataset/dataset/` directory.
 
 ## Training
 
