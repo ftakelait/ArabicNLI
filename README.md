@@ -7,8 +7,8 @@ This project is focused on performing Natural Language Inference (NLI) tasks on 
 Clone this repository and install the required Python dependencies.
 
 ```
-git clone https://github.com/yourusername/arabic-nli.git
-cd arabic-nli
+git clone https://github.com/ftakelait/ArabicNLI.git
+cd ArabicNLI
 pip install -r requirements.txt
 ```
 
