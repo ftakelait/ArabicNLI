@@ -7,13 +7,13 @@ This project is focused on performing Natural Language Inference (NLI) tasks on 
 Clone this repository and install the required Python dependencies.
 
 ```
-git clone https://github.com/yourusername/arabic-nli.git
-cd arabic-nli
+git clone https://github.com/ftakelait/ArabicNLI.git
+cd ArabicNLI
 pip install -r requirements.txt
 ```
 
 ## Data
-The datasets used in this project, ArNLi and ArbTEDS, can be found in the `dataset/dataset/ArbTEDS/` directory.
+The datasets used in this project, ArNLi and ArbTEDS, can be found in the `dataset/dataset/` directory.
 
 ## Training
 
@@ -48,6 +48,8 @@ python inference.py --checkpoints 'checkpoints/checkpoint-27/' \
 This project is licensed under the terms of the MIT license.
 
 ## Citations
+**Note**: I am considering submitting my work to AAAI 2023 conference. Any feedback or guidelines will be much appreciated. 
+
 If you use this code or our results in your research, please cite:
 
 ```
