@@ -30,9 +30,9 @@ pip install -r requirements.txt
 ```
 
 ## Data
-This project utilizes two significant Arabic NLI datasets, namely ArNLi and ArbTEDS.
+This project utilizes two significant Arabic NLI datasets, namely ArNLI and ArbTEDS.
 
-- ArNLi
+- ArNLI
 is an extensive dataset that has been used as a benchmark in the field of Arabic Natural Language Inference.
 
 - ArbTEDS
