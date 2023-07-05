@@ -1,7 +1,24 @@
-# Arabic Natural Language Inference (NLI) Project
+# Arabic Natural Language Inference (NLI) System Using Transformer Models
 
 ## Introduction
-This project is focused on performing Natural Language Inference (NLI) tasks on Arabic datasets (ArNLi and ArbTEDS). The objective of our work is to present a comprehensive study and benchmark comparison of different pre-trained models in these NLP tasks for Arabic language. Furthermore, we propose and experiment with different loss functions to enhance model performance and robustness.
+Natural Language Inference (NLI), also known as Recognizing Textual Entailment (RTE), plays a pivotal role in the field of Natural Language Processing (NLP). The task involves determining the logical relationship between two text pieces, typically referred to as the premise and hypothesis. NLI has profound implications in various NLP and AI applications, including dialogue improvement, question answering, machine translation, text classification, summarization, and information retrieval.
+
+Despite its importance, limited research has been done on Arabic NLI, particularly using Neural Networks (NN). Our project aims to address this research gap by proposing a novel approach that leverages pre-trained transformer models for the NLI task on Arabic datasets.
+
+## Project Overview
+Our approach employs pre-trained transformer models, renowned for their ability to capture both lexical and semantic features, thus offering the potential to surpass traditional NLI methods. By treating the inference task as a classification problem, our system eliminates the need for manual feature engineering, thus simplifying the process while maximizing efficiency.
+
+Key contributions of our project include:
+
+- Introduction of an NLI system for Arabic, leveraging pre-trained transformer models.
+- Evaluation of different types of pre-trained transformer models and loss functions to enhance the system's robustness.
+- Comprehensive performance evaluation of our proposed system using different Arabic NLI datasets.
+
+Our results are compared against existing Arabic NLI benchmarks to measure the effectiveness of our approach.
+
+This repository contains all the relevant codes, datasets, and resources used in our project. It also includes a detailed description of the methodology, experimental results, and potential future research directions.
+
+This project contributes significantly to the ongoing research in Arabic NLI, providing a practical, efficient, and potentially more effective solution for the task. We welcome researchers and developers to use our work as a basis for further research and development in the field.
 
 ## installation 
 Clone this repository and install the required Python dependencies.
@@ -48,13 +65,13 @@ python inference.py --checkpoints 'checkpoints/checkpoint-27/' \
 This project is licensed under the terms of the MIT license.
 
 ## Citations
-**Note**: I am considering submitting my work to AAAI 2023 conference. Any feedback or guidelines will be much appreciated. 
+**Note**: I am considering submitting my work to AAAI 2023 conference, but still not sure what conference I may submit to. Any feedback or guidelines will be much appreciated. 
 
 If you use this code or our results in your research, please cite:
 
 ```
 @misc{yourname2023arabicnli,
-  title={Enhancing Arabic Natural Language Inference using Pre-Trained Transformer Models: A Comparative Study and a New Benchmark},
+  title={Arabic Natural Language Inference with Pre-trained Transformers: Exploring the Power of Semantic Understanding},
   author={Fouzi Takelait},
   year={2023},
   eprint={12345},
