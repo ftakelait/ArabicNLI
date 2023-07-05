@@ -30,7 +30,17 @@ pip install -r requirements.txt
 ```
 
 ## Data
-The datasets used in this project, ArNLi and ArbTEDS, can be found in the `dataset/dataset/` directory.
+This project utilizes two significant Arabic NLI datasets, namely ArNLi and ArbTEDS.
+
+### ArNLi
+ArNLi is an extensive dataset that has been used as a benchmark in the field of Arabic Natural Language Inference.
+
+### ArbTEDS
+ArbTEDS is another widely accepted dataset, which has been specifically curated for Arabic NLI tasks.
+
+Both of these datasets are fundamental to our project and have been instrumental in training and evaluating our models.
+
+You can find these datasets in the `dataset/` directory of this repository. Please refer to their respective documentation for more information about their structure and content.
 
 ## Training
 
